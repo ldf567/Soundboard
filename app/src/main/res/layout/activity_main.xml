@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="210dp"
+        android:layout_height="364dp"
+        android:onClick="playfire"
+        app:srcCompat="@drawable/fire"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="206dp"
+        android:layout_height="364dp"
+        android:onClick="playwater"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/water"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="208dp"
+        android:layout_height="371dp"
+        android:onClick="playwind"
+        app:srcCompat="@drawable/wind"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="208dp"
+        android:layout_height="368dp"
+        android:onClick="playleaf"
+        app:srcCompat="@drawable/leaf"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+</android.support.constraint.ConstraintLayout>
